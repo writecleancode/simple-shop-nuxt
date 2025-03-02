@@ -6,4 +6,15 @@ export default defineNuxtConfig({
 	future: {
 		compatibilityVersion: 4,
 	},
+
+	css: ['~/assets/styles/main.scss'],
+
+	modules: ['@nuxtjs/google-fonts'],
+
+	googleFonts: {
+		display: 'swap',
+		families: {
+			Rubik: [400, 700],
+		},
+	},
 });
