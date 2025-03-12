@@ -4,8 +4,7 @@ import { products } from '~/assets/data/products';
 
 <template>
 	<div class="wrapper">
-		<h1>Products list:</h1>
-		<ul>
+		<ul class="products-list">
 			<li v-for="product in products" :key="product.id">
 				<Product :product-data="product" />
 			</li>
@@ -15,6 +14,16 @@ import { products } from '~/assets/data/products';
 
 <style lang="scss" scoped>
 .wrapper {
+	margin-inline: auto;
+	padding: 6.4rem 3.2rem;
+	max-width: 1464px;
 	background-color: #fff;
+
+	.products-list {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 4.8rem;
+		list-style: none;
+	}
 }
 </style>

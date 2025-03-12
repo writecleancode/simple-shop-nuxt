@@ -9,12 +9,12 @@ export default defineNuxtConfig({
 
 	css: ['~/assets/styles/main.scss'],
 
-	modules: ['@nuxtjs/google-fonts'],
+	modules: ['@nuxtjs/google-fonts', 'nuxt-icons'],
 
 	googleFonts: {
 		display: 'swap',
 		families: {
-			Rubik: [400, 700],
+			Rubik: [400, 500, 600, 700],
 		},
 	},
 });
