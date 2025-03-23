@@ -1,5 +1,5 @@
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
 	productData: {
 		id: string;
 		name: string;
@@ -8,15 +8,17 @@ defineProps<{
 		imageUrl: string;
 	};
 }>();
+
+const productPath = computed(() => `products/${props.productData.id}`);
 </script>
 
 <template>
 	<div class="product-wrapper">
-		<div class="image-wrapper">
+		<NuxtLink :to="productPath" class="image-wrapper">
 			<img :src="productData.imageUrl" :alt="productData.name" class="image" />
-		</div>
+		</NuxtLink>
 		<div class="content">
-			<span class="name">{{ productData.name }}</span>
+			<NuxtLink :to="productPath" class="name">{{ productData.name }}</NuxtLink>
 			<div class="row">
 				<span class="category">{{ productData.category }}</span>
 				<span class="price">{{ productData.price }} $</span>
@@ -53,6 +55,9 @@ defineProps<{
 }
 
 .name {
+	margin: -0.8rem -1.6rem;
+	padding: 0.8rem 1.6rem;
+	width: max-content;
 	font-weight: 600;
 	font-size: 1.8rem;
 }

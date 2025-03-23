@@ -15,5 +15,8 @@
     "nuxt-icons": "^3.2.1",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "sass": "^1.85.1"
   }
 }
