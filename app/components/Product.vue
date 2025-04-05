@@ -3,13 +3,14 @@ const props = defineProps<{
 	productData: {
 		id: string;
 		name: string;
+		symbol: string;
 		category: string;
 		price: string;
 		imageUrl: string;
 	};
 }>();
 
-const productPath = computed(() => `products/${props.productData.id}`);
+const productPath = computed(() => `products/${props.productData.symbol}`);
 </script>
 
 <template>

@@ -2,6 +2,7 @@ export const products = [
 	{
 		id: '1',
 		name: 'Easy Shine Shampoo',
+		symbol: 'easy-shine-shampoo',
 		category: 'Manes and Dress',
 		price: '18,20',
 		imageUrl: '/images/easy-shine-shampoo.webp',
@@ -9,6 +10,7 @@ export const products = [
 	{
 		id: '2',
 		name: 'Kinesyl',
+		symbol: 'kinesyl',
 		category: 'Joints / Muscles / Tendons',
 		price: '15,45',
 		imageUrl: '/images/kinesyl.webp',
@@ -16,6 +18,7 @@ export const products = [
 	{
 		id: '3',
 		name: 'Oxxygen',
+		symbol: 'oxxygen',
 		category: 'Anti Insectes',
 		price: '12,95',
 		imageUrl: '/images/oxxygen.webp',
@@ -23,6 +26,7 @@ export const products = [
 	{
 		id: '4',
 		name: 'Emouchine Derm Lait',
+		symbol: 'emouchine-derm-lait',
 		category: 'Dermatology',
 		price: '15,45',
 		imageUrl: '/images/emouchine-derm-lait.webp',
@@ -30,6 +34,7 @@ export const products = [
 	{
 		id: '5',
 		name: 'Nutrilyte',
+		symbol: 'nutrilyte',
 		category: 'Anti Insectes',
 		price: '22,80',
 		imageUrl: '/images/nutrilyte.webp',
@@ -37,6 +42,7 @@ export const products = [
 	{
 		id: '6',
 		name: 'Emouchine Gel Tube',
+		symbol: 'emouchine-gel-tube',
 		category: 'Dermatology',
 		price: '19,75',
 		imageUrl: '/images/emouchine-gel-tube.webp',
@@ -44,6 +50,7 @@ export const products = [
 	{
 		id: '7',
 		name: 'Sun Protec',
+		symbol: 'sun-protec',
 		category: 'Joints / Muscles / Tendons',
 		price: '14,95',
 		imageUrl: '/images/sun-protec.webp',
@@ -51,6 +58,7 @@ export const products = [
 	{
 		id: '8',
 		name: 'Easy Shine Intense',
+		symbol: 'easy-shine-intense',
 		category: 'Manes and Dress',
 		price: '15,95',
 		imageUrl: '/images/easy-shine-intense.webp',
@@ -58,6 +66,7 @@ export const products = [
 	{
 		id: '9',
 		name: 'Emouchine Protec Shampoo',
+		symbol: 'emouchine-protec-shampoo',
 		category: 'Dermatology',
 		price: '16,00',
 		imageUrl: '/images/emouchine-protec-shampoo.webp',
@@ -65,6 +74,7 @@ export const products = [
 	{
 		id: '10',
 		name: 'Easy Shine Grey',
+		symbol: 'easy-shine-grey',
 		category: 'Manes and Dress',
 		price: '21,10',
 		imageUrl: '/images/easy-shine-grey.webp',
@@ -72,6 +82,7 @@ export const products = [
 	{
 		id: '11',
 		name: 'Becool',
+		symbol: 'becool',
 		category: 'Anti Insectes',
 		price: '18,85',
 		imageUrl: '/images/becool.webp',
