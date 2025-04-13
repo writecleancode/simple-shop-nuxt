@@ -5,6 +5,7 @@ const props = defineProps<{
 		name: string;
 		symbol: string;
 		category: string;
+		description: string;
 		price: string;
 		imageUrl: string;
 	};
